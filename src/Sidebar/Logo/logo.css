@@ -1,0 +1,16 @@
+.left-menu-logo {
+    display: flex;
+    position: relative;
+    background-image: url('./logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 94px;
+    height: 94px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.logo {
+    position: relative;
+    top: -40px;
+    left: 26px;
+}

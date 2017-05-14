@@ -1,0 +1,40 @@
+.left-nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-grow: 1;
+    text-transform: uppercase;
+    margin-top: 148px;
+}
+
+.left-menu-item {
+    font-family: .avenirBold.;
+    font-size: 24px;
+    font-weight: bold;
+    color: #303030;
+    background-color: none;
+    margin: 14px 0;
+}
+
+.dropdown {
+    position: relative;
+    left: 7px;
+}
+
+.dropdown:after {
+    content: url("./group-2.svg");
+    display: inline-block;
+    height: 9px;
+    width: 14px;
+    position: relative;
+    top: -2px;
+    left: 4px;
+    margin-left: 3px;
+}
+
+.left-menu-sub-item {
+    font-family: AndaleMono;
+    font-size: 24px;
+    color: #3c3c3c;
+    margin: 13px 0 13px;
+}

@@ -1,0 +1,21 @@
+.search {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 23px;
+}
+
+.search>input[type="text"], textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 14px 10px 56px;
+    background: #0e0e0e url('./search-icon.svg') no-repeat 14px 7px;
+    border: none;
+    border-bottom: 4px solid #373737;
+    color: #fff;
+    font-size: 24px;
+    outline: none;
+}
+
+.search-input-label {
+    display: none;
+}
