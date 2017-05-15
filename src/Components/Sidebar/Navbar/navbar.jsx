@@ -1,5 +1,6 @@
 import React from 'react';
 import './navbar.css';
+import '../../../fonts.css';
 
 export default () => (
   <nav className="left-nav">

@@ -1,0 +1,28 @@
+/*fonts.css*/
+
+@font-face {
+  font-family: 'AndaleMono';
+  src: url("fonts/Andale-mono/andale-mono.woff2") format("woff2"),
+       url("fonts/Andale-mono/andale-mono.ttf") format("truetype"),
+       url("fonts/Andale-mono/andale-mono.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext';
+  src: url("fonts/Avenir-next/avenir-next-regular.woff2") format("woff2"),
+       url("fonts/Avenir-next/avenir-next-regular.ttf") format("truetype"),
+       url("fonts/Avenir-next/avenir-next-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext';
+  src: url("fonts/Avenir-next/avenir-next-bold.woff2") format("woff2"),
+       url("fonts/Avenir-next/avenir-next-bold.ttf") format("truetype"),
+       url("fonts/Avenir-next/avenir-next-bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
