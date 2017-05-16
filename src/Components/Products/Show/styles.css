@@ -18,7 +18,7 @@
     color: #3a3a3a;
 }
 .item-price {
-    margin-top: 30px;
+    margin-top: 85px;
     display: flex;
     justify-content: flex-end;
 }
@@ -79,12 +79,11 @@
 .more-images-button {
     border: none;
     background: none;
-    font-family: 'AvenirNextReg';
+    font-family: 'AvenirNext';
     color: #c0c0c0;
     font-size: 14px;
     text-align: left;
     cursor: pointer;
-    width: 64px;
     flex: 0 1 40px;
 }
 
@@ -134,7 +133,7 @@
     position: absolute;
     top: 18px;
     left: 424px;
-    font-family: AvenirNextBold;
+    font-family: AvenirNext;
     font-weight: bold;
     font-size: 64px;
     color: #3a3a3a;

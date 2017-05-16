@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import './styles.css';
 import '../../../fonts.css';
+import SaleBadge from './SaleBadge';
 import ShoeLargeImage from './bitmap-copy.png';
 import ShoeThumb1 from './shoe_thumb1.jpg';
 import ShoeThumb2 from './shoe_thumb2.jpg';
@@ -40,13 +41,11 @@ export default () => (
           <button type="button" name="color-black" className="color-button black" />
           <button type="button" name="color-light-gray" className="color-button light-gray" />
         </div>
-        <div className="sale-badge sale-badge-item-postion">
-          sale
-        </div>
+        <SaleBadge />
       </div>
-      <div className="item-price">
-        <H2>170$</H2>
-      </div>
+    </div>
+    <div className="item-price">
+      <H2>170$</H2>
     </div>
     <div className="row">
       <img src={ShoeLargeImage} alt="" className="item-big-image" />
