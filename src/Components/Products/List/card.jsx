@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import ProductImage from './bitmap1.jpg';
 import '../../../fonts.css';
 
@@ -15,7 +16,7 @@ flex-direction: column;
 justify-content: space-around;
 margin: 10px 0 0;
 `;
-const A = styled.a`
+const ItemLink = styled(Link)`
 display: flex;
 width: 100%;
 height: 30%;
@@ -41,6 +42,6 @@ const ItemImage = styled.img`
 export default () => (
   <Item>
     <ItemImage src={ProductImage} />
-    <A onsale href="#">170$</A>
+    <ItemLink to="/item" onsale href="#">170$</ItemLink>
   </Item>
 );
