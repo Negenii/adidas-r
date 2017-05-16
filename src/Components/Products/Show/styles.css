@@ -1,0 +1,233 @@
+.content {
+    width: 1024px;
+    min-height: 1024px;
+    padding: 10px 32px 0 32px;
+}
+.colors-badges-price {
+    position: absolute;
+    top: 35px;
+    right: 32px;
+}
+.item-heading {
+    position: absolute;
+    top: 18px;
+    left: 424px;
+    font-family: AvenirNext;
+    font-weight: bold;
+    font-size: 64px;
+    color: #3a3a3a;
+}
+.item-price {
+    margin-top: 85px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item-options {
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    align-items: center;
+}
+
+.more-images {
+    flex: 0 0 160px;
+    justify-content: center;
+    height: 120px;
+    cursor: pointer;
+    margin: 0 14px;
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.more-images span {
+    width: 100%;
+    background: #e7e7e7;
+    height: 3px;
+    border-radius: 1.5px;
+    position: relative;
+}
+
+.more-images span:before, .more-images span:after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 100%;
+    background: #e7e7e7;
+    height: 3px;
+    border-radius: 1.5px;
+    transition: inherit;
+}
+
+.more-images span:before {
+    top: -6px;
+}
+
+.more-images span:after {
+    top: 3px;
+}
+
+.more-images:hover span:before {
+    top: -13px;
+}
+
+.more-images:hover span:after {
+    top: 10px;
+}
+
+.more-images-button {
+    border: none;
+    background: none;
+    font-family: 'AvenirNext';
+    color: #c0c0c0;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+    flex: 0 1 40px;
+}
+
+.more-images-button:hover {
+    color: #6e6e6e;
+}
+
+.about-text {
+    font-family: 'AvenirNext';
+    font-size: 33px;
+    line-height: 1.52;
+    color: #d8d8d8;
+    margin-bottom: 40px;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.first-word {
+    color: #6e6e6e;
+}
+
+.buy-now-button {
+    width: 1044px;
+    height: 115px;
+    position: fixed;
+    bottom: 0px;
+    left: 414px;
+    font-size: 32px;
+    color: #fff;
+    padding: 36px 0;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #4949aa, #27275d);
+    transition: none;
+    text-transform: uppercase;
+    font-family: 'AvenirNext';
+    font-weight: bold;
+    margin-top: 28px;
+}
+
+.buy-now-button:hover {
+    background-image: linear-gradient(to top, #4949aa, #27275d);
+}
+
+.item-heading {
+    position: absolute;
+    top: 18px;
+    left: 424px;
+    font-family: AvenirNext;
+    font-weight: bold;
+    font-size: 64px;
+    color: #3a3a3a;
+}
+
+.colors-badges-price {
+    position: absolute;
+    top: 35px;
+    right: 32px;
+}
+#save-button {
+    display: block;
+    border: none;
+    background: #e3e3e3;
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    font-family: AvenirNext;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 2px;
+}
+.top-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-selector {
+    display: flex;
+    align-items: flex-end;
+}
+
+.color-selector button {
+    margin-left: 13px;
+}
+
+.color-button {
+    display: block;
+    border: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.sale-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff5c5c;
+    color: #fff;
+    width: 76px;
+    height: 32px;
+    font-family: AvenirNext;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sale-badge-index-position {
+    position: relative;
+    margin-bottom: -32px;
+    /*  Это исключительный случай?  */
+    top: 10px;
+    left: 208px;
+}
+
+.sale-badge-item-postion {
+    position: relative;
+    margin-left: 30px;
+}
+
+.gray {
+    background-color: #c5c5c5;
+}
+
+.blue {
+    background-color: #4d87ca;
+}
+
+.black {
+    background-color: #4a4a4a;
+}
+
+.light-gray {
+    background-color: #e0e0e0;
+}
+.item-thumbnails {
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 98%;
+    margin-left: 0;
+}

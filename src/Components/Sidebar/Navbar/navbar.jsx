@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './navbar.css';
 import '../../../fonts.css';
 
 export default () => (
   <nav className="left-nav">
-    <a href="{undefined}" className="left-menu-item current dropdown">Sports</a>
-    <a href="{undefined}" className="left-menu-sub-item current">Shoes</a>
-    <a href="{undefined}" className="left-menu-sub-item">Clothing</a>
-    <a href="{undefined}" className="left-menu-sub-item last">Accesories</a>
-    <a href="{undefined}" className="left-menu-item">Brands</a>
-    <a href="{undefined}" className="left-menu-item">MiCoach</a>
+    <Link to="/item" className="left-menu-item current dropdown">Sports</Link>
+    <Link to="/shoes" className="left-menu-sub-item current">Shoes</Link>
+    <Link to="/clothing" className="left-menu-sub-item">Clothing</Link>
+    <Link to="/accesories" className="left-menu-sub-item last">Accesories</Link>
+    <Link to="/brands" className="left-menu-item">Brands</Link>
+    <Link to="/micoach" className="left-menu-item">MiCoach</Link>
   </nav>
 );

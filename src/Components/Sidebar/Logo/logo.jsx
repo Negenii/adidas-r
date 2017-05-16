@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './logo.css';
 
-export default () => <div className="left-menu-logo" alt="" />;
+export default () => <Link to="/" className="left-menu-logo" alt="" />;
